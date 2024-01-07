@@ -1,12 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WhatsApp UI</title>
-    <link rel="stylesheet" href="/assets/css/style.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+  <body class="bg-green-400">
+    <h1 class="mt-2 text-center font-bold">WhatsApp UI (Screen-1)</h1>
+
+    <!-- chat section -->
+    <section>
+      <!-- Navbar -->
+      <div class="m-3 bg-white max-w-xl items-center mx-auto">
+        <div
+          class="bg-emerald-700 text-white flex items-center justify-between px-3 py-5">
+          <h5 class="font-semibold uppercase">whatsapp</h5>
+          <div class="flex items-center space-x-4">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24">
+              <path
+                fill="currentColor"
+                d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 0 0 1.48-5.34c-.47-2.78-2.79-5-5.59-5.34a6.505 6.505 0 0 0-7.27 7.27c.34 2.8 2.56 5.12 5.34 5.59a6.5 6.5 0 0 0 5.34-1.48l.27.28v.79l4.25 4.25c.41.41 1.08.41 1.49 0c.41-.41.41-1.08 0-1.49zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14"
+              />
+            </svg>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="28"
+              height="28"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M12 10c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2m0-6c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2m0 12c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2"
+              />
+            </svg>
+          </div>
+        </div>
+        <ul
+          class="bg-emerald-700 text-neutral-300 p-3 pr-7 uppercase font-semibold text-sm flex space-x-4 items-center justify-between "
+        >
+          <li class="flex items-center space-x-2 relative">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="23"
+              height="23"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M12 18q2.075 0 3.538-1.462Q17 15.075 17 13q0-2.075-1.462-3.538Q14.075 8 12 8Q9.925 8 8.463 9.462Q7 10.925 7 13q0 2.075 1.463 3.538Q9.925 18 12 18Zm0-2q-1.25 0-2.125-.875T9 13q0-1.25.875-2.125T12 10q1.25 0 2.125.875T15 13q0 1.25-.875 2.125T12 16Zm6-6q.425 0 .712-.288Q19 9.425 19 9t-.288-.713Q18.425 8 18 8t-.712.287Q17 8.575 17 9t.288.712Q17.575 10 18 10ZM4 21q-.825 0-1.412-.587Q2 19.825 2 19V7q0-.825.588-1.412Q3.175 5 4 5h3.15L8.7 3.325q.15-.15.337-.238Q9.225 3 9.425 3h5.15q.2 0 .388.087q.187.088.337.238L16.85 5H20q.825 0 1.413.588Q22 6.175 22 7v12q0 .825-.587 1.413Q20.825 21 20 21Z"
+              />
+            </svg>
+
+            <div class="text-white">
+              chats
+             
+              
+            </div>
+            <span
+                class="w-5 h-5 bg-white text-emerald-800 rounded-full p-1 font-semibold flex items-center justify-center"
+                >10</span>
+            <span class="w-20 h-1 bg-white absolute top-8 right-0 bottom-0 left-6"></span>
+          </li>
+         
+          <li>status</li>
+          <li>calls</li>
+        </ul>
+
+         <!-- message body -->
+      <div class="bg-white flex items-center space-x-4 px-3 py-5">
+        <div>
+            <img class="rounded-full" src="https://ui-avatars.com/api/name=mohammed shafi?background=random" alt="avatar">
+        </div>
+        <div class="flex-1">
+            <h4 class="font-bold text-base">Mohammed Shafi</h4>
+            <p class="text-sm text-gray-400">Hello, how are you?</p>
+        </div>
+
+       <div class="flex flex-col items-center space-y-1">
+        <span class="text-green-500 font-semibold text-sm">12:25</span>
+        <span class="w-5 h-5 text-white p-1 bg-green-500 rounded-full flex items-center justify-center font-semibold text-sm">2</span>
+       </div>
+      
+      </div>
+      <div class="bg-white flex items-center space-x-4 px-3 py-5">
+        
+        <div>
+            <img class="rounded-full" src="https://ui-avatars.com/api/name=John Peter?background=random" alt="avatar">
+        </div>
+        <div class="flex-1">
+            <h4 class="font-bold text-base">John Peter</h4>
+            <p class="text-sm text-gray-400">Hello, which place is good ?</p>
+        </div>
+
+       <div class="flex flex-col items-center space-y-1">
+        <span class="text-green-500 font-semibold text-sm">10:02</span>
+        <span class="w-5 h-5 text-white p-1 bg-green-500 rounded-full flex items-center justify-center font-semibold text-sm">6</span>
+       </div>
+      
+      </div>
+      <div class="bg-white flex items-center space-x-4 px-3 py-5">
+        
+        <div>
+            <img class="rounded-full" src="https://ui-avatars.com/api/name=Dharun Raj?background=random" alt="avatar">
+        </div>
+        <div class="flex-1">
+            <h4 class="font-bold text-base">Dharun Raj</h4>
+            <p class="text-sm text-gray-400">Hello, today what's a plan ?</p>
+        </div>
+
+       <div class="flex flex-col items-center space-y-1">
+        <span class="text-green-500 font-semibold text-sm">9:42</span>
+        <span class="w-5 h-5 text-white p-1 bg-green-500 rounded-full flex items-center justify-center font-semibold text-sm">2</span>
+       </div>
+      
+      </div>
+      <div class="bg-white flex items-center space-x-4 px-3 py-5">
+        
+        <div>
+            <img class="rounded-full" src="https://ui-avatars.com/api/name=Abdul Rahman?background=random" alt="avatar">
+        </div>
+        <div class="flex-1">
+            <h4 class="font-bold text-base">Abdul Rahman</h4>
+            <p class="text-sm text-gray-400">Bro i am at work i will call you later.</p>
+        </div>
+
+       <div class="flex flex-col items-center space-y-1">
+        <span class="text-green-500 font-semibold text-sm">7:00</span>
+        <span class="w-5 h-5 text-white p-1 bg-green-500 rounded-full flex items-center justify-center font-semibold text-sm">1</span>
+       </div>
+      
+      </div>
+      <div class="bg-white flex items-center space-x-4 px-3 py-5">
+        
+        <div>
+            <img class="rounded-full" src="https://ui-avatars.com/api/name=Julia mery?background=random" alt="avatar">
+        </div>
+        <div class="flex-1">
+            <h4 class="font-bold text-base">Julia mery</h4>
+            <p class="text-sm text-gray-400">Hey how is going today ?</p>
+        </div>
+
+       <div class="flex flex-col items-center space-y-1">
+        <span class="text-green-500 font-semibold text-sm">5:44</span>
+        <span class="w-5 h-5 text-white p-1 bg-green-500 rounded-full flex items-center justify-center font-semibold text-sm">12</span>
+       </div>
+      
+      </div>
+      </div>
+    </section>
+  </body>
 </html>
